@@ -1,0 +1,55 @@
+/* main-color */
+/* breakpoint */
+body {
+  width: 100%;
+}
+
+.main-title {
+  text-align: center;
+  font-size: 24px;
+  margin: 60px 0;
+}
+
+.work {
+  max-width: 1200px;
+  min-width: 320px;
+  margin: 0 auto;
+  border: solid 2px #000;
+  margin-bottom: 60px;
+  box-shadow: 0 0 6px #7e7e7e;
+  padding: 40px;
+}
+.work-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.work-items__size {
+  width: 45%;
+  padding: 1%;
+  margin-bottom: 40px;
+  overflow: hidden;
+}
+
+footer {
+  height: 80px;
+  border-top: solid 1px #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .main-title {
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0;
+  }
+
+  .work {
+    border: none;
+    box-shadow: none;
+    margin-bottom: 0px;
+    padding: 0;
+  }
+}
