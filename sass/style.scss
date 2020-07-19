@@ -33,6 +33,17 @@ body {
   }
 }
 
+.design p {
+  padding: 8px;
+}
+
+.design {
+  &-title {
+    margin-bottom: 8px;
+    margin-top: 8px;
+  }
+}
+
 footer {
   height: 80px;
   border-top: solid 1px #000;
